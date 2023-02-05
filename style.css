@@ -1,0 +1,65 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: linear-gradient(rgb(188, 223, 94),rgb(216, 100, 100),rgb(226, 215, 215));
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    font-display: swap;
+    font-family: 'Dosis','sens-serif';
+    align-items: center;
+}
+
+
+.main{
+    background: rgba(255,255,255,0.75);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background: rgba(255,255,255,0.30);
+    flex-basis: 400px;
+    height: 500px;
+    padding: 30px 20px;
+}
+
+.pantalla{
+    backdrop-filter: blur(5.5px);
+    background:rgb(255, 255, 255, 0.75);
+    border-radius: 10px;
+    font-size: 30px;
+    padding-left: 5px;
+    padding: 20px;
+    text-align: right;
+
+}
+
+.cal-boton-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 15px;
+}
+
+.boton{
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 60px;
+    border-radius: 16px;
+    border: 1px 
+}
+
+.boton:last-child{
+    background-color: rgb(202, 107, 107);
+}
